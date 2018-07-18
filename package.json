@@ -1,0 +1,15 @@
+{
+  "name": "exql",
+  "version": "1.0.0",
+  "description": "The module reads in an Excel workbook and generates SQL insert statements from each sheet",
+  "main": "cli.js",
+  "bin": {
+    "exql": "./cli.js"
+  },
+  "author": "CF",
+  "dependencies": {
+    "mz": "^2.7.0",
+    "xlsx": "^0.13.2",
+    "yargs": "^12.0.1"
+  }
+}
