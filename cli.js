@@ -168,7 +168,7 @@ const processWorkbook = (excelFilePath, outputPath, quiet = false, force = false
 
                 const results = [];
 
-                for (let rowIndex = 2; rowIndex < maxRow; rowIndex++) {
+                for (let rowIndex = 2; rowIndex <= maxRow; rowIndex++) {
                     const currentRow = getRow(worksheet, columnsCount, rowIndex, true, numericColumns);
 
                     results.push(currentRow);
