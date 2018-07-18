@@ -1,11 +1,12 @@
 {
   "name": "exql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The module reads in an Excel workbook and generates SQL insert statements from each sheet",
   "main": "cli.js",
   "bin": {
     "exql": "./cli.js"
   },
+  "license": "MIT",
   "homepage": "https://github.com/cfitz1995/exql",
   "repository": {
     "type": "git",
